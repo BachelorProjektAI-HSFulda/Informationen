@@ -41,7 +41,7 @@ Verwaltung. Zum Beispiel verfügt ein Bundesland über einen abgestimmten Aktenp
 - Swagger Dokumentation [Synacta swagger](https://synacta.agile-is.de/_api/)
 - Beispiel Clients für Synacta [JavaScript](https://github.com/AgileIS/Synacta-JSClient)  [.net](https://github.com/AgileIS/Synacta-CSharpClient) 
 - Authentifizierung für das Projekt mit "Authorization: Token FHProjekt2016" im Request-Header jeder Anfrage
-- Die Entwicklung zu Synacta ist aktuell noch nicht bageschlossen, bitte Fehler und Fragen an info@agile-is.de 
+- Die Entwicklung zu Synacta ist aktuell noch nicht abgeschlossen, bitte Fehler und Fragen an info@agile-is.de 
 
 # Vorgeschlagene Technologien
 Die Wahl des Technologiestacks ist dem jeweiligen Team überlassen. Die folgende Liste ist als Empfehlung zu Werten:
