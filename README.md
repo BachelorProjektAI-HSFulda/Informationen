@@ -39,7 +39,7 @@ Verwaltung. Zum Beispiel verfügt ein Bundesland über einen abgestimmten Aktenp
 - Allgemeine Beschreibung [Synacta](http://www.synacta.de)
 - Demoschnittstelle für das Projekt https://synacta.agile-is.de
 - Swagger Dokumentation [Synacta swagger](https://synacta.agile-is.de/_api/)
-- Beispiel Clients für Synacta [JavaScript](https://github.com/AgileIS/Synacta-JSClient)  [.net](https://github.com/AgileIS/Synacta-CSharpClient) 
+- Beispiel Clients für Synacta [JavaScript](https://github.com/AgileIS/synacta-js-client)  [.net](https://github.com/AgileIS/synacta-csharp-client) 
 - Authentifizierung für das Projekt mit "Authorization: Token FHProjekt2016" im Request-Header jeder Anfrage
 - Die Entwicklung zu Synacta ist aktuell noch nicht abgeschlossen, bitte Fehler und Fragen an info@agile-is.de 
 
