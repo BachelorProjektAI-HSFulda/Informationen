@@ -47,11 +47,11 @@ Verwaltung. Zum Beispiel verfügt ein Bundesland über einen abgestimmten Aktenp
 Die Wahl des Technologiestacks ist dem jeweiligen Team überlassen. Die folgende Liste ist als Empfehlung zu Werten:
 - [Cordova](https://cordova.apache.org/) 
   - cross plattform mobile apps 
-  - Sprachen: JavaSCript, HTML, CSS
+  - Sprachen: JavaScript, HTML, CSS
   - IDE bsp. Visual Studio
 - [Electron](http://electron.atom.io/) 
   - cross platform desktop apps
-  - Sprachen: JavaSCript, HTML, CSS
+  - Sprachen: JavaScript, HTML, CSS
   - IDE bsp. Visual Studio, VS Code, etc.
 - [Windows Universal Apps](https://developer.microsoft.com/de-de/windows/getstarted)
   - Windows 10
