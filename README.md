@@ -63,3 +63,22 @@ Die Wahl des Technologiestacks ist dem jeweiligen Team überlassen. Die folgende
   - IDE: Visual Studion
 - ??? Was immer man sich noch vorstellen kann ???
 
+#Synacta Beispiele:
+
+Skip/Top:
+?$skip=10&$top=3
+https://synacta.agile-is.de/_api/base/Akte/f5759817-590a-4876-b606-b436fce56b92/Documents?$skip=10&$top=3
+
+Filter:
+?$filter=contains(Titel, 'Neu')
+https://synacta.agile-is.de/_api/base/Akte/f5759817-590a-4876-b606-b436fce56b92/Documents?$filter=contains(Titel,%20%27Neu%27)
+
+Filter kombiniert:
+?$filter=contains(Name, 'Dokument') and Geheimschutzstufe eq 'VS-Vertraulich'
+https://synacta.agile-is.de/_api/base/Akte/f5759817-590a-4876-b606-b436fce56b92/Documents?$filter=contains(Name,%20%27Dokument%27)%20and%20Geheimschutzstufe%20eq%20%27VS-Vertraulich%27
+
+
+OrderBy wirft bei mir leider einen Internal Server Error. Würde aber theoretisch so gehen:
+?$orderby=Name desc, Dokumentdatum desc
+https://synacta.agile-is.de/_api/base/Akte/f5759817-590a-4876-b606-b436fce56b92/Documents?$orderby=Name%20desc,%20Dokumentdatum%20desc
+
