@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 Meine Welt ist schön
 noch ein checkin
+=======
+Hallo Welt
+>>>>>>> 5cfa7a731d3d9dcc85bd9e3ae4fec168336220bb
