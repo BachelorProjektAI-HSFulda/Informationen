@@ -30,7 +30,7 @@ Die Wahl des Technologiestacks ist dem jeweiligen Team überlassen. Die folgende
 
 - [Cordova](https://cordova.apache.org/) 
   - cross plattform mobile apps 
-  - Sprachen: JavaSCript, HTML, CSS
+  - Sprachen: JavaSsript, HTML, CSS
   - IDE bsp. Visual Studio, VS Code, etc
 - [Electron](http://electron.atom.io/) 
   - cross platform desktop apps
