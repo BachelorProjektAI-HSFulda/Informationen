@@ -1,65 +1,51 @@
-# Informationen zum Bachelor Projekt 5. Semester AI 
+# Informationen zum Bachelor Projekt 5. Semester WI
+
 Allgemeine Informationen zur Veranstaltung
 
-# Anforderungen eAkte Anwendung
+## Anforderungen des Kunden Anwendung
 
-- Ein Benutzer sieht alle Organisationeinheiten auf die er Zugriff hat.
-- Ein Benutzer kann eine Organisationseinheit auswählen.
-- Ein Benutzer bekommt alle Akten zu einer ausgewählten Organisationseinheit angezeigt. 
-- Ein Benutzer kann eine Akte auswählen und bekommt dadurch die Liste aller Dokumenten und Vorgänge der Akte angezeigt.
-- Ein Benutzer kann einen Vorgang auswählen und bekommt alle Dokumente des Vorgangs angezeigt.
-- Alle Listendarstellungen von Containern und Dokumenten sind filter und sortierbar.
-- Alle Container und Dokumente verfügen über eine View/Edit Maske für Metadaten.
-- Ein Mitartbeiter kann Akten und Vorgänge erstellen, bearbeiten, löschen und umregistrieren(verscchieben).
-- Beim Erstellen einer Akte muss der Mitarbeiter ein Aktenplanzeichen aus dem Aktenplan auswählen.
-- Ein Mitarbeiter kann Dokumente in eine Akte / einen Vorgang registrieren(hinzufügen), deren Metadaten bearbeiten, 
-die Datei herunterladen, die Datei in einer neuen Version hochladen, das Dokument löschen.
-- Der Benutzer kann Container und Dokumente zu seinen lokalen Favoriten hinzufügen.
-- Der Benutzer hat eine Liste mit seinen Favoriten.
-- Die letzten x verwendeten Dokumente und Container werden dem Benutzer in einer Liste angezeigt.
-- Der Benutzer kann Dateien herunterladen und bekommt diese in der zugehörigen Applikation auf dem Client angezeigt.
-- Bekannte Dateitypen sollen mit ihrem Icon in der Anwendung angezeigt werden. (docx, pdf, etc.)
-- Gelöschte Elemente liegen im Papierkorb der eAkte-Anwendung, dieser muss angezeigt werden und ein Wiederherstellen soll möglich sein.
-- Einige Metadatenfelder werden über vordefinierte Einträge befüllt, Lookupwerte, diese Werte müssen beim Erstellen / Bearbeiten von der Schnittstelle bezogen werden. 
+- Die App soll in der Lage sein, Photos von Visitenkarten zu erstellen.
+- Die Daten einer Visitenkarte sollen ausgelesenen und den richtigen Attributen einer Person zugeordnet werden. (Name, Vorname, E-Mail, Telefon, Unternehmen, Position, etc)
+- Die Daten einer Person sollen über soziale Netzwerke verifiziert und abgeglichen werden. (LinkedIn, Facebook, twitter, Xing, Github, etc. )
+- Der Benutzer kann auswählen gegen welche sozialen Netzwerke geprüft werden soll
+- Gefundene Profile der Person werden in den Kontaktdetails als Link hinterlegt.
+- Das erfassen von neunen Kontakten erfolgt per Visitenkartenbild über die Kamara des aktuellen GErätes oder aus bereits gespeicherten Bildern.
+- Kontakte werden im Rahmen von Kampanien erfasst werden. Beispielsweise Messen, Tagungen oder Konferenzen. Diese Kampanien müssenm in der App angeleget und verwaltet werden können. 
+- Für kampanien kann bestimmt werden, wie Daten mit sozialen Netzwerken abgeglichen werden und wohin die Kontaktdaten gesendet werden. 
+- Kontaktdaten können an unterschiedliche System gesendet werden. Beispielsweise Google-Kontakte, Exchange, Salesforce, etc.
+- Für Kampanien können Kontakte mit Zusatzinformationen ( Gesprächsnotizen, usw.) an OneNote exportiert werden. Hierbei ist eine Kampanie ein Notizbuch und jeder Kontakt eine Seite.
+- Zu Kontakten können Beschreibungen, Sprachnachrichten, Dateien und weitere Bilder hinzugefügt werden. Diese sollen in einem Verlauf dargestellt werden.
+- Die App soll mit mehreren Endgeräten funktionieren, Benutzer melden sich mit einem vorhandenen Account an. (bsp.: Google, Github, Facebook, LinkedIn) 
+- Die Daten werden zwischen den Geräten synchronisiert.    
+- Ein Administrator kann weitere Personen zu einer Gruppe/Unternehmen hinzufügen. (Jede Person kann nur einer Gruppe / Unternehmen zugehörig sein)
+- Die Eingabe von doppelten Kontakten muss von der App registriert und dem Benutzer angezeigt werden. 
 
-## Nicht zu Implementieren
-- Die Anwendung soll keine eigene Datenhaltung implementieren. Ein Caching von abgerufenen Informationen ist zulässig.
-- Momentan funktioniert die Schnittstelle Synacta noch nicht mit tatsächlichen Benutzern, daher muss die Anwendung keine Benutzerinformationen bearbeiten.  
+### Nicht zu Implementieren
+- Text und Spracherkennung -> hierfür sind exteren Dienste zu verwenden.
+- Nutzeridentitäten werden von externen Identityprovidern bezogen, keine eigene Nutzerverwaltung nötig!
 
+## Vorgeschlagene Technologien
 
-## Begriffsdefinition
-- Akte, Vorgang sind Containertypen, die zur organisation von Dokumenten in einer hierarischen Form, vergleichbar mit dem Dateisystem, dienen. 
-- Dokumente bestehen aus einer Datei (Bytestream) und einem Container, der Metainformationen zur Datei bereitstellt.
-- Aktenplan ist eine parallele hierarischen Organisationsstruktur für Akten, Vorgange und Dokumente. Der Aktenplan bestimmt die thematische 
-Klassifizierung eines Containers unabhängig von der Zugehörigen Organisation. Der Aktenplan ist in der Regel stabil über meherere Behörden einer 
-Verwaltung. Zum Beispiel verfügt ein Bundesland über einen abgestimmten Aktenplan, der von allen Ministerien angewandt wird.
-- Organisationen stellen die tatasächliche Struktur einer Behörde dar. 
-
-# Synacta Informationen
-- Allgemeine Beschreibung [Synacta](http://www.synacta.de)
-- Demoschnittstelle für das Projekt https://synacta.agile-is.de
-- swagger Dokumentation [Synacta swagger](https://synacta.agile-is.de/_api/)
-- Beispiel Clients für Synacta [JavaScript](https://github.com/AgileIS/Synacta-JSClient)  [.net](https://github.com/AgileIS/Synacta-CSharpClient) 
-- Authentifizierung für das Projekt mit api_key im Request-Header jeder Anfrage
-- Die Entwicklung zu Synacta ist aktuell noch nicht bageschlossen, bitte Fehler und Fragen an info@agile-is.de 
-
-# Vorgeschlagene Technologien
 Die Wahl des Technologiestacks ist dem jeweiligen Team überlassen. Die folgende Liste ist als Empfehlung zu Werten:
+
 - [Cordova](https://cordova.apache.org/) 
   - cross plattform mobile apps 
   - Sprachen: JavaSCript, HTML, CSS
-  - IDE bsp. Visual Studio
+  - IDE bsp. Visual Studio, VS Code, etc
 - [Electron](http://electron.atom.io/) 
   - cross platform desktop apps
-  - Sprachen: JavaSCript, HTML, CSS
+  - Sprachen: JavaScript, HTML, CSS
   - IDE bsp. Visual Studio, VS Code, etc.
-- [Windows Universal Apps](https://developer.microsoft.com/de-de/windows/getstarted)
-  - Windows 10
-  - Sprache: C#, XAML
-  - IDE: Visual Studion
 - [Xamarin](https://www.xamarin.com/)
   - cross plattform mobile apps 
   - Sprache: C#, XAML
-  - IDE: Visual Studion
+  - IDE: Visual Studio
+- [Unity](https://unity3d.com/)
+  - cross plattform game engine
+  - Sprachen: C#, JavaScript
+  - IDE: Unity Editor, ? 
 - ??? Was immer man sich noch vorstellen kann ???
 
+## Services
+
+- Gerne können hier die gefundenen Services mit den anderen Gruppen geteilt werden.
