@@ -2,7 +2,7 @@
 
 Allgemeine Informationen zur Veranstaltung
 
-## Anforderungen des Kunden Anwendung
+## Anforderungen des Kunden an die Anwendung
 
 - Die App soll in der Lage sein, Photos von Visitenkarten zu erstellen.
 - Die Daten einer Visitenkarte sollen ausgelesenen und den richtigen Attributen einer Person zugeordnet werden. (Name, Vorname, E-Mail, Telefon, Unternehmen, Position, etc)
