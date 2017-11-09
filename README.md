@@ -9,9 +9,9 @@ Allgemeine Informationen zur Veranstaltung
 - Die Daten einer Person sollen über soziale Netzwerke verifiziert und abgeglichen werden. (LinkedIn, Facebook, twitter, Xing, Github, etc. )
 - Der Benutzer kann auswählen gegen welche sozialen Netzwerke geprüft werden soll
 - Gefundene Profile der Person werden in den Kontaktdetails als Link hinterlegt.
-- Das erfassen von neunen Kontakten erfolgt per Visitenkartenbild über die Kamara des aktuellen GErätes oder aus bereits gespeicherten Bildern.
-- Kontakte werden im Rahmen von Kampanien erfasst werden. Beispielsweise Messen, Tagungen oder Konferenzen. Diese Kampanien müssenm in der App angeleget und verwaltet werden können. 
-- Für kampanien kann bestimmt werden, wie Daten mit sozialen Netzwerken abgeglichen werden und wohin die Kontaktdaten gesendet werden. 
+- Das Erfassen von neunen Kontakten erfolgt per Visitenkartenbild über die Kamara des aktuellen GErätes oder aus bereits gespeicherten Bildern.
+- Kontakte werden im Rahmen von Kampanien erfasst. Beispielsweise Messen, Tagungen oder Konferenzen. Diese Kampanien müssenm in der App angeleget und verwaltet werden können. 
+- Für Kampanien kann bestimmt werden, wie Daten mit sozialen Netzwerken abgeglichen werden und wohin die Kontaktdaten gesendet werden. 
 - Kontaktdaten können an unterschiedliche System gesendet werden. Beispielsweise Google-Kontakte, Exchange, Salesforce, etc.
 - Für Kampanien können Kontakte mit Zusatzinformationen ( Gesprächsnotizen, usw.) an OneNote exportiert werden. Hierbei ist eine Kampanie ein Notizbuch und jeder Kontakt eine Seite.
 - Zu Kontakten können Beschreibungen, Sprachnachrichten, Dateien und weitere Bilder hinzugefügt werden. Diese sollen in einem Verlauf dargestellt werden.
