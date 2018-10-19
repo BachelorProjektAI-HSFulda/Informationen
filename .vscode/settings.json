@@ -1,0 +1,6 @@
+{
+    "markdown.extension.toc.githubCompatibility": true,
+    "cSpell.language": ",de",
+    "markdown.extension.print.absoluteImgPath": false,
+    "markdown.extension.tableFormatter.normalizeIndentation": true
+}
