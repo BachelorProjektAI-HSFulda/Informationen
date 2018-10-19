@@ -12,9 +12,13 @@ Allgemeine Informationen zur Veranstaltung
 
 ### Zielplattform und Technologie
 
-SharePoint Online - Office 356
+- SharePoint Online - Office 356
+- [SharePoint Framework (SPFx)](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview)
 
 ## Vorgeschlagene Sprachen / Frameworks
 
 
+## Weiter Informationen
 
+| [development tenant agile-is](https://agileis.sharepoint.com/sites/ws1819/) | Entwicklungsumgebung auf der auch das Agile Task Board installiert ist. Hier finden die Kundenabnahmen statt. | 
+| | |
