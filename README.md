@@ -41,6 +41,7 @@ Der Kunde erwartet die Erstellung einer Sammlung von Reportingwerkzeugen für ei
 ## Vorgeschlagene Programmiersprachen / Frameworks
 
 Die Wahl der Programmiersprache und verwendeten Frameworks ist grundlegend frei. Es ist jedoch zu empfehlen, mit folgenden Programmiersprachen und Frameworks zu arbeiten.
+
 |    |                                                                                                                  |                                                                                                            |
 | -- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
 | 1. | [TypeScript](https://www.typescriptlang.org/index.html)                                                          | *(Typisierte Programmiersprache die in JavaScript kompiliert wird.)*                                       |
